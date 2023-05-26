@@ -1,0 +1,17 @@
+
+Brute force:
+
+The Fibonacci number for 30 is 832040
+The number of recursive calls made is 2692537
+
+Memonized:
+
+The Fibonacci number for 30 is 832040
+The number of recursive calls made is 59
+
+Briefly explain why
+the brute force algorithm needs to use some form of dynamic programming?
+Dynamic programming is a technique for solving complex problems by breaking them down into smaller, simpler subproblems
+ and reusing solutions to those subproblems to avoid redundant calculations. By using dynamic programming to store
+ the previously computed values, we can reduce the time complexity of computing the nth Fibonacci number to O(n) instead of
+ O(2^n) and avoid redundant calculations.
